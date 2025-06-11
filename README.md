@@ -26,7 +26,6 @@ Traditional RAG systems retrieve a fixed number of documents (top-*k*) based sol
 
 ## 📦 Tech Stack
 
-- Python
 - [LangChain](https://github.com/langchain-ai/langchain)
 - [ChromaDB](https://www.trychroma.com/)
 - [Google Generative AI](https://ai.google.dev/)
