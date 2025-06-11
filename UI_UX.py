@@ -11,7 +11,7 @@ gv_rag = GV_RAG()
 st.markdown("""
     <style>
     html, body, [class*="css"]  {
-        font-family: monospace !important;
+        font-family: system-ui !important;
     }
     small.st-emotion-cache-c8ta4l {
         display: none !important;
