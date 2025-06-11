@@ -1,4 +1,5 @@
 from memory_management import G_VDB
+from google import genai
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 import streamlit as st
 
