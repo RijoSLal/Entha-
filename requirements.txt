@@ -1,4 +1,3 @@
-langchain 
 streamlit 
 chromadb
 pdfplumber 
