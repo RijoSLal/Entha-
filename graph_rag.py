@@ -1,6 +1,5 @@
 from memory_management import G_VDB
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from google import genai
 import streamlit as st
 
 api_key_1 = st.secrets["api_key_1"]
