@@ -3,3 +3,4 @@ chromadb
 pdfplumber 
 langchain-text-splitters 
 google-genai
+protobuf==3.20.*
