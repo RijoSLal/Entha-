@@ -1,0 +1,6 @@
+langchain 
+streamlit 
+chromadb
+pdfplumber 
+langchain-text-splitters 
+google-genai
