@@ -7,10 +7,14 @@ from graph_rag import GV_RAG
 # initialize RAG class
 gv_rag = GV_RAG()
 
+# inject CSS to hide the original space limit and simple tweaks
 st.markdown("""
     <style>
     html, body, [class*="css"]  {
         font-family: monospace !important;
+    }
+    small.st-emotion-cache-c8ta4l {
+        display: none !important;
     }
     </style>
 """, unsafe_allow_html=True)
@@ -26,41 +30,6 @@ if "messages" not in st.session_state:
 if "document_processed" not in st.session_state:
     st.session_state.document_processed = False 
     
-# inject CSS to hide the original space limit and simple tweaks
-st.markdown("""
-    <style>
-    small.st-emotion-cache-c8ta4l {
-        display: none !important;
-    }
-    
-    /* Override 'Browse files' button text */
-    button.st-emotion-cache-ktz07o {
-        font-family: monospace !important;
-    }
-
-    button.st-emotion-cache-ktz07o::before {
-        content: "Browse";
-    }
-
-    button.st-emotion-cache-ktz07o {
-        color: transparent !important;
-        position: relative;
-    }
-
-    button.st-emotion-cache-ktz07o::before {
-        position: absolute;
-        color: white;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    </style>
-""", unsafe_allow_html=True)
 
 # file uploader
 uploaded_file = st.file_uploader("Limit 20MB per file • PDF", type=["pdf"])
