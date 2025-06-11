@@ -4,4 +4,4 @@ streamlit
 chromadb
 pdfplumber 
 langchain-text-splitters 
-google-generativeai
+google-genai
