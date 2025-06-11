@@ -23,8 +23,8 @@ class GV_RAG:
             doc (str): The raw text document to be processed and stored.
         """
         doc_splitter = RecursiveCharacterTextSplitter(
-                     chunk_size=300,
-                     chunk_overlap=30)
+                     chunk_size=500,
+                     chunk_overlap=100)
         chunks = doc_splitter.split_text(doc)
         self.vector_db.document_insertion_chroma(chunks)
     
