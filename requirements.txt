@@ -1,6 +1,8 @@
+protobuf==3.20.*
+pysqlite3-binary
 streamlit 
 chromadb
 pdfplumber 
 langchain-text-splitters 
 google-genai
-protobuf==3.20.*
+
