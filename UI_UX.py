@@ -3,7 +3,10 @@ import time
 from io import BytesIO
 import pdfplumber
 from graph_rag import GV_RAG
+import sys
+import pysqlite3
 
+sys.modules["sqlite3"] = pysqlite3
 # initialize RAG class
 gv_rag = GV_RAG()
 
