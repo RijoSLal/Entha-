@@ -32,7 +32,7 @@ if "document_processed" not in st.session_state:
     
 
 # file uploader
-uploaded_file = st.file_uploader("Limit 20MB per file • PDF", type=["pdf"])
+uploaded_file = st.file_uploader("", type=["pdf"])
 if uploaded_file is not None:
     if "last_uploaded_filename" not in st.session_state or uploaded_file.name != st.session_state.last_uploaded_filename:
         # reset document state if it's a new file
