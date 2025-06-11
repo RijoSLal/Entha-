@@ -5,3 +5,4 @@ chromadb
 pdfplumber 
 langchain-text-splitters 
 google-genai
+google-generativeai
