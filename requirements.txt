@@ -1,8 +1,7 @@
-protobuf==3.20.*
 pysqlite3-binary
 streamlit 
 chromadb
 pdfplumber 
 langchain-text-splitters 
-google-genai==0.2.2
-google-generativeai==0.3.2
+google-genai
+google-generativeai
