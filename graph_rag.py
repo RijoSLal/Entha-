@@ -4,7 +4,7 @@ from google import genai
 import streamlit as st
 
 api_key_1 = st.secrets["api_key_1"]
-api_key_2 = st.secrets["api_key_1"]
+api_key_2 = st.secrets["api_key_2"]
 
 
 class GV_RAG:
